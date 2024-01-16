@@ -4,4 +4,3 @@ function solution(num) {
 }
 
 console.log(solution(3));
-console.log(solution(6));

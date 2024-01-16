@@ -7,7 +7,6 @@ function solution(my_string) {
       arr.push(my_string[i].toUpperCase());
     }
   }
-  //join(): 배열의 모든 요소를 하나의 문자열로 만듦
   return arr.join('');
 }
 

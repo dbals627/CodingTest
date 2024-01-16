@@ -12,5 +12,4 @@ function solution(rsp) {
   console.log(answer);
 }
 
-solution('2');
 solution('205');
