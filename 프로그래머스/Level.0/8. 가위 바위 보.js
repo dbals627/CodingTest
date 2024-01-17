@@ -9,7 +9,6 @@ function solution(rsp) {
       answer += '2';
     }
   }
-  console.log(answer);
 }
 
 solution('205');

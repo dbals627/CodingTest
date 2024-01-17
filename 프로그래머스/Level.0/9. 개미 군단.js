@@ -1,7 +1,3 @@
-// 장군개미 5
-// 병정개미 3
-// 일개미 1
-
 function solution(hp) {
   const FirstAnt = Math.floor(hp / 5);
   const SecondAnt = Math.floor((hp % 5) / 3);

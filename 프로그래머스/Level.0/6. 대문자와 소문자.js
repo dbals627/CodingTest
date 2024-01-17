@@ -10,4 +10,4 @@ function solution(my_string) {
   return arr.join('');
 }
 
-console.log(solution('cccCCC'));
+console.log(solution('ccccCCC'));
