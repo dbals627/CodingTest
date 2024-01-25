@@ -1,15 +1,4 @@
 function solution(num, k) {
-  //   const isInclude = num.toString();
-
-  //   for (let i = 0; i < isInclude.length; i++) {
-  //     if (isInclude[i] == k) {
-  //       const idx = isInclude.indexOf(isInclude[i + 1]);
-  //       console.log(idx);
-  //       return idx;
-  //     }
-  //   }
-  //   return -1;
-
   return (
     num
       .toString()
