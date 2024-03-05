@@ -21,5 +21,8 @@ print(ord(a))
 
 # 숫자의 합
 n = input()
-
 print(sum(map(int, input())))
+
+n = int(input())
+num = list(map(int, input()))
+print(sum(num))
