@@ -39,5 +39,10 @@ for _ in range(28):
 print(min(num))
 print(max(num))
 
+# 나머지
+lst = []
+for i in range(1, 11):
+    lst.append(int(input()) % 42)
 
+print(len(set(lst)))
 
