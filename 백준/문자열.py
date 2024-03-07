@@ -26,3 +26,11 @@ print(sum(map(int, input())))
 n = int(input())
 num = list(map(int, input()))
 print(sum(num))
+
+# 그대로 출력하기
+while True:
+    try:
+        print(input())
+    except EOFError:
+        break
+# EOFError:EOF는 END OF FILE로 사용자 입력의 끝을 나타낼 때 사용
